@@ -1,3 +1,194 @@
-.text {
-  color: blue;
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый #ffffff */
+/* цвет акцента #2196F3 */
+/* цвет подложки в занятости rgba(47, 48, 58, 0.8) */
+/* цвет логотипов #AFB1B8; */
+/* цвет бекграунда под фото #F5F4FA; */
+/* цвет футора #2F303A; */
+/* цвет контактов в футоре rgba(255, 255, 255, 0.6); */
+/* цвет иконок соцсетей в футоре rgba(255, 255, 255, 0.1); */
+/* цвет надписи создателей сайта rgba(255, 255, 255, 0.4); */
+
+
+
+:root {
+    --primarli-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primarly-white-color: #ffffff;
+    --busyness-bg: rgba(47, 48, 58, 0.8);
+    --logo-color: #AFB1B8;
+    --back-graund-developers-color: #F5F4FA;
+    --footer-color: #2F303A;
+    --contacts-color: rgba(255, 255, 255, 0.6);
+    --social-icon-color: rgba(255, 255, 255, 0.1);
+    --developers-text-color: rgba(255, 255, 255, 0.4);
+
 }
+
+body {
+    background-color: var(--primarly-white-color);
+    color: var(--primarli-text-color);
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.logo > span {
+color: var(--accent-color);
+}
+
+footer .logo {
+    color: var(--primarly-white-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus
+{
+color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* auth-nav */
+
+.auth-nav a {
+    color: var(--primarli-text-color);
+}
+.auth-nav a:hover {
+    color: var(--accent-color);
+}
+
+
+/* герой */
+
+.hero .hero-title{
+    color: var(--primarly-white-color);
+    background-color: var(--accent-color);
+}
+
+.button {
+    color: var(--primarly-white-color);
+    background-color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+    background-color: var(--primarly-white-color);
+}
+/* секция */
+
+.section .section-title {
+    color: var(--title-text-color);
+}
+
+.section .title {
+    color: var(--title-text-color);
+}
+
+/* список преимуществ */
+
+.advantages-list .images:hover {
+    background-color: var(--accent-color);
+}
+/* чем мы занимаемся*/
+
+.list .title {
+    color:  var(--primarly-white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* разработчики */
+
+.developers {
+    background-color: var(--back-graund-developers-color);
+}
+
+.section .subject {
+    color: var(--title-text-color);
+}
+
+section .icon {
+    color: var(--logo-color);
+    }
+.icon:hover {
+    color: var(--accent-color);
+}
+
+/* наши клиенты */
+
+
+/* футор */
+
+footer {
+    background-color: var(--footer-color);
+}
+
+footer .title {
+    color: var(--primarly-white-color);
+}
+
+footer .text {
+    color: var(--developers-text-color);
+}
+
+footer .icon {
+    color: var( --social-icon-color);
+    }
+
+.contacts {
+    color: var(--contacts-color);
+}
+
+address {
+    color: var(--primarly-white-color);
+}
+
+
+
+/* страница портфолио */
+
+.portfolio .button {
+    color: var(--title-text-color);
+    background-color: var(--back-graund-developers-color);
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+    color: var(--primarly-white-color);
+    background-color:var(--accent-color);
+}
+
+.portfolio-title {
+    color: var(--title-text-color);
+}
+
+.portfolio .subject {
+    color: var(--primarli-text-color);
+}
+
+.portfolio .text {
+    color: var(--title-text-color);
+}
+
+.portfolio .text:hover {
+    color: var(--primarly-white-color);
+    background-color: var(--accent-color);
+}
+
+
+/* про */
